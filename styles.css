@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "gothic";
+  src: url("") format("truetype");
+}
+body{
+  background-image: url(backgroundd.jpg);
+  background-size: cover;
+  background-attachment: local;
+}
+ #hdr{
+  background-color: #FFB0E1;
+  background-position: center;
+}
+header{
+  font-size: 25px;
+  text-indent: 55px;
+}
+ul {
+  list-style-type: none;
+  margin: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: #FFB0E1;
+  display: flex;
+  justify-content: center;
+}
+ #nvg{
+  background-color: #B0FFC6;
+  width: 150px;
+  height: 500px;
+  padding: 10px;
+}
+ #mb{
+  background-color: #FFB0E1;
+  width: 620px;
+  padding: 10px;
+ }
+ #oth{
+  background-color: #B0FFC6;
+  width: 150px;
+  height: 440px;
+  padding: 10px;
+ }
+audio{
+  width: 150px;
+  height: 40px;
+}
+ #container{
+  display: flex;
+  flex-shrink: 3;
+  justify-content: center;
+ }
